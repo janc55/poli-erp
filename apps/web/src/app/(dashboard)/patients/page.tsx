@@ -164,7 +164,7 @@ export default function PatientsPage() {
             ) : (
               patients.map((p) => {
                 const name =
-                  p.fullName ?? `${p.firstName ?? ''} ${p.lastName ?? ''}`.trim() || '—';
+                  (p.fullName ?? `${p.firstName ?? ''} ${p.lastName ?? ''}`.trim()) || '—';
                 const age = p.birthDate ? calculateAge(p.birthDate) : null;
                 return (
                   <tr key={p.id}>
