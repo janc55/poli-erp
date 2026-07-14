@@ -1,0 +1,24 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.PrismaClient = exports.Prisma = exports.Role = exports.QueueStatus = exports.ProductCategory = exports.PrescriptionStatus = exports.PermissionAction = exports.PaymentMethod = exports.MaritalStatus = exports.LabOrderStatus = exports.InventoryMovementType = exports.Gender = exports.DocumentType = exports.CashSessionStatus = exports.BloodType = exports.BillingStatus = exports.AppointmentType = exports.AppointmentStatus = void 0;
+var client_1 = require("@prisma/client");
+Object.defineProperty(exports, "AppointmentStatus", { enumerable: true, get: function () { return client_1.AppointmentStatus; } });
+Object.defineProperty(exports, "AppointmentType", { enumerable: true, get: function () { return client_1.AppointmentType; } });
+Object.defineProperty(exports, "BillingStatus", { enumerable: true, get: function () { return client_1.BillingStatus; } });
+Object.defineProperty(exports, "BloodType", { enumerable: true, get: function () { return client_1.BloodType; } });
+Object.defineProperty(exports, "CashSessionStatus", { enumerable: true, get: function () { return client_1.CashSessionStatus; } });
+Object.defineProperty(exports, "DocumentType", { enumerable: true, get: function () { return client_1.DocumentType; } });
+Object.defineProperty(exports, "Gender", { enumerable: true, get: function () { return client_1.Gender; } });
+Object.defineProperty(exports, "InventoryMovementType", { enumerable: true, get: function () { return client_1.InventoryMovementType; } });
+Object.defineProperty(exports, "LabOrderStatus", { enumerable: true, get: function () { return client_1.LabOrderStatus; } });
+Object.defineProperty(exports, "MaritalStatus", { enumerable: true, get: function () { return client_1.MaritalStatus; } });
+Object.defineProperty(exports, "PaymentMethod", { enumerable: true, get: function () { return client_1.PaymentMethod; } });
+Object.defineProperty(exports, "PermissionAction", { enumerable: true, get: function () { return client_1.PermissionAction; } });
+Object.defineProperty(exports, "PrescriptionStatus", { enumerable: true, get: function () { return client_1.PrescriptionStatus; } });
+Object.defineProperty(exports, "ProductCategory", { enumerable: true, get: function () { return client_1.ProductCategory; } });
+Object.defineProperty(exports, "QueueStatus", { enumerable: true, get: function () { return client_1.QueueStatus; } });
+Object.defineProperty(exports, "Role", { enumerable: true, get: function () { return client_1.Role; } });
+Object.defineProperty(exports, "Prisma", { enumerable: true, get: function () { return client_1.Prisma; } });
+var client_2 = require("@prisma/client");
+Object.defineProperty(exports, "PrismaClient", { enumerable: true, get: function () { return client_2.PrismaClient; } });
+//# sourceMappingURL=index.js.map
