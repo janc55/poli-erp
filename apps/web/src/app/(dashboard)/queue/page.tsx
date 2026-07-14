@@ -71,8 +71,8 @@ export default function QueueLivePage() {
         setItems(list);
         const sig = list.map((i) => `${i.id}:${i.status}:${i.queueNumber ?? i.turn ?? ''}`).join('|');
         if (lastSigRef.current && lastSigRef.current !== sig) {
-          const prev = new Map(lastSigRef.current.split('|').filter(Boolean).map((s) => s.split(':')));
-          const cur = new Map(sig.split('|').filter(Boolean).map((s) => s.split(':')));
+          const prev = new Map(lastSigRef.current.split('|').filter(Boolean).map((s) => s.split(':') as [string, string]));
+          const cur = new Map(sig.split('|').filter(Boolean).map((s) => s.split(':') as [string, string]));
           const changedIds: Record<string, boolean> = {};
           cur.forEach((v, k) => {
             const before = prev.get(k);
