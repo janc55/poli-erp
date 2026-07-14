@@ -850,8 +850,8 @@ export default function AppointmentsPage() {
                   {occupied && patient ? (
                     <div className="space-y-1">
                       <p className="font-medium text-slate-900">{patient.fullName ?? `${patient.firstName ?? ''} ${patient.lastName ?? ''}`.trim()}</p>
-                      {(r.queueNumber ?? r.turn) != null && (
-                        <p className="text-xs text-slate-500">Turno #{r.queueNumber ?? r.turn}</p>
+                      {((r as any).queueNumber ?? (r as any).turn) != null && (
+                        <p className="text-xs text-slate-500">Turno #{((r as any).queueNumber ?? (r as any).turn) as React.ReactNode}</p>
                       )}
                     </div>
                   ) : (
