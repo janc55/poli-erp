@@ -1,0 +1,86 @@
+2026-07-14T16:39:30.710Z [Context: getConfig]
+2026-07-14T16:39:30.710Z Prisma CLI Version : 7.8.0
+2026-07-14T16:39:30.875Z npm notice
+2026-07-14T16:39:30.875Z npm notice New major version of npm available! 10.8.2 -> 12.0.1
+2026-07-14T16:39:30.875Z npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.1
+2026-07-14T16:39:30.875Z npm notice To update run: npm install -g npm@12.0.1
+2026-07-14T16:39:30.875Z npm notice
+2026-07-14T16:39:33.858Z 🔄 Running Prisma migrations...
+2026-07-14T16:39:47.514Z Prisma schema loaded from packages/database/prisma/schema.prisma.
+2026-07-14T16:39:47.577Z Error: Prisma schema validation - (get-config wasm)
+2026-07-14T16:39:47.577Z Error code: P1012
+2026-07-14T16:39:47.577Z error: The datasource property `url` is no longer supported in schema files. Move connection URLs for Migrate to `prisma.config.ts` and pass either `adapter` for a direct database connection or `accelerateUrl` for Accelerate to the `PrismaClient` constructor. See https://pris.ly/d/config-datasource and https://pris.ly/d/prisma7-client-config
+2026-07-14T16:39:47.577Z -->  packages/database/prisma/schema.prisma:10
+2026-07-14T16:39:47.577Z |
+2026-07-14T16:39:47.577Z 9 |   provider = "postgresql"
+2026-07-14T16:39:47.577Z 10 |   url      = env("DATABASE_URL")
+2026-07-14T16:39:47.577Z |
+2026-07-14T16:39:47.577Z Validation Error Count: 1
+2026-07-14T16:39:47.577Z [Context: getConfig]
+2026-07-14T16:39:47.577Z Prisma CLI Version : 7.8.0
+2026-07-14T16:39:50.004Z 🔄 Running Prisma migrations...
+2026-07-14T16:40:04.104Z Prisma schema loaded from packages/database/prisma/schema.prisma.
+2026-07-14T16:40:04.181Z Error: Prisma schema validation - (get-config wasm)
+2026-07-14T16:40:04.181Z Error code: P1012
+2026-07-14T16:40:04.181Z error: The datasource property `url` is no longer supported in schema files. Move connection URLs for Migrate to `prisma.config.ts` and pass either `adapter` for a direct database connection or `accelerateUrl` for Accelerate to the `PrismaClient` constructor. See https://pris.ly/d/config-datasource and https://pris.ly/d/prisma7-client-config
+2026-07-14T16:40:04.181Z -->  packages/database/prisma/schema.prisma:10
+2026-07-14T16:40:04.181Z |
+2026-07-14T16:40:04.181Z 9 |   provider = "postgresql"
+2026-07-14T16:40:04.181Z 10 |   url      = env("DATABASE_URL")
+2026-07-14T16:40:04.181Z |
+2026-07-14T16:40:04.181Z Validation Error Count: 1
+2026-07-14T16:40:04.181Z [Context: getConfig]
+2026-07-14T16:40:04.181Z Prisma CLI Version : 7.8.0
+2026-07-14T16:40:07.008Z 🔄 Running Prisma migrations...
+2026-07-14T16:40:22.453Z Prisma schema loaded from packages/database/prisma/schema.prisma.
+2026-07-14T16:40:22.519Z Error: Prisma schema validation - (get-config wasm)
+2026-07-14T16:40:22.520Z Error code: P1012
+2026-07-14T16:40:22.520Z error: The datasource property `url` is no longer supported in schema files. Move connection URLs for Migrate to `prisma.config.ts` and pass either `adapter` for a direct database connection or `accelerateUrl` for Accelerate to the `PrismaClient` constructor. See https://pris.ly/d/config-datasource and https://pris.ly/d/prisma7-client-config
+2026-07-14T16:40:22.520Z -->  packages/database/prisma/schema.prisma:10
+2026-07-14T16:40:22.520Z |
+2026-07-14T16:40:22.520Z 9 |   provider = "postgresql"
+2026-07-14T16:40:22.520Z 10 |   url      = env("DATABASE_URL")
+2026-07-14T16:40:22.520Z |
+2026-07-14T16:40:22.520Z Validation Error Count: 1
+2026-07-14T16:40:22.520Z [Context: getConfig]
+2026-07-14T16:40:22.520Z Prisma CLI Version : 7.8.0
+2026-07-14T16:40:24.914Z 🔄 Running Prisma migrations...
+2026-07-14T16:40:38.311Z Prisma schema loaded from packages/database/prisma/schema.prisma.
+2026-07-14T16:40:38.334Z Error: Prisma schema validation - (get-config wasm)
+2026-07-14T16:40:38.334Z Error code: P1012
+2026-07-14T16:40:38.334Z error: The datasource property `url` is no longer supported in schema files. Move connection URLs for Migrate to `prisma.config.ts` and pass either `adapter` for a direct database connection or `accelerateUrl` for Accelerate to the `PrismaClient` constructor. See https://pris.ly/d/config-datasource and https://pris.ly/d/prisma7-client-config
+2026-07-14T16:40:38.334Z -->  packages/database/prisma/schema.prisma:10
+2026-07-14T16:40:38.334Z |
+2026-07-14T16:40:38.334Z 9 |   provider = "postgresql"
+2026-07-14T16:40:38.334Z 10 |   url      = env("DATABASE_URL")
+2026-07-14T16:40:38.334Z |
+2026-07-14T16:40:38.334Z Validation Error Count: 1
+2026-07-14T16:40:38.334Z [Context: getConfig]
+2026-07-14T16:40:38.334Z Prisma CLI Version : 7.8.0
+2026-07-14T16:40:40.197Z 🔄 Running Prisma migrations...
+2026-07-14T16:40:52.662Z Prisma schema loaded from packages/database/prisma/schema.prisma.
+2026-07-14T16:40:52.695Z Error: Prisma schema validation - (get-config wasm)
+2026-07-14T16:40:52.695Z Error code: P1012
+2026-07-14T16:40:52.695Z error: The datasource property `url` is no longer supported in schema files. Move connection URLs for Migrate to `prisma.config.ts` and pass either `adapter` for a direct database connection or `accelerateUrl` for Accelerate to the `PrismaClient` constructor. See https://pris.ly/d/config-datasource and https://pris.ly/d/prisma7-client-config
+2026-07-14T16:40:52.695Z -->  packages/database/prisma/schema.prisma:10
+2026-07-14T16:40:52.695Z |
+2026-07-14T16:40:52.695Z 9 |   provider = "postgresql"
+2026-07-14T16:40:52.695Z 10 |   url      = env("DATABASE_URL")
+2026-07-14T16:40:52.695Z |
+2026-07-14T16:40:52.695Z Validation Error Count: 1
+2026-07-14T16:40:52.695Z [Context: getConfig]
+2026-07-14T16:40:52.695Z Prisma CLI Version : 7.8.0
+2026-07-14T16:40:55.459Z 🔄 Running Prisma migrations...
+2026-07-14T16:41:08.224Z Prisma schema loaded from packages/database/prisma/schema.prisma.
+2026-07-14T16:41:08.254Z Error: Prisma schema validation - (get-config wasm)
+2026-07-14T16:41:08.254Z Error code: P1012
+2026-07-14T16:41:08.254Z error: The datasource property `url` is no longer supported in schema files. Move connection URLs for Migrate to `prisma.config.ts` and pass either `adapter` for a direct database connection or `accelerateUrl` for Accelerate to the `PrismaClient` constructor. See https://pris.ly/d/config-datasource and https://pris.ly/d/prisma7-client-config
+2026-07-14T16:41:08.254Z -->  packages/database/prisma/schema.prisma:10
+2026-07-14T16:41:08.254Z |
+2026-07-14T16:41:08.254Z 9 |   provider = "postgresql"
+2026-07-14T16:41:08.254Z 10 |   url      = env("DATABASE_URL")
+2026-07-14T16:41:08.254Z |
+2026-07-14T16:41:08.254Z Validation Error Count: 1
+2026-07-14T16:41:08.254Z [Context: getConfig]
+2026-07-14T16:41:08.254Z Prisma CLI Version : 7.8.0
+2026-07-14T16:41:10.734Z 🔄 Running Prisma migrations...
